@@ -12,6 +12,7 @@
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
+#define MAC 4
 
 / {
     keymap {
@@ -66,14 +67,14 @@
 &trans  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &mkp MCLK  &trans                    &trans  &trans     &trans       &trans  &trans  &trans
 &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &trans                    &trans  &trans     &trans       &trans  &trans  &trans
 &trans  &trans          &trans          &trans           &trans     &trans  &trans    &trans  &trans  &trans     &trans       &trans  &trans  &trans
-                        &mo 4           &trans           &trans     &trans  &trans    &trans  &trans  &kp ENTER  &bootloader  &trans
+                        &mo MAC         &trans           &trans     &trans  &trans    &trans  &trans  &kp ENTER  &bootloader  &trans
             >;
         };
 
         adjust_layer {
             label = "adjust";
             bindings = <
-&trans        &trans      &trans     &trans       &trans       &trans                    &trans    &trans     &trans     &trans     &trans  &trans
+&to BASE      &to MAC     &trans     &trans       &trans       &trans                    &trans    &trans     &trans     &trans     &trans  &trans
 &trans        &kp INS     &kp PSCRN  &kp K_CMENU  &none        &none                     &trans    &trans     &trans     &trans     &trans  &trans
 &kp CAPSLOCK  &kp LALT    &kp LCTRL  &kp LSHFT    &none        &trans                    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
 &trans        &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &none   &trans    &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans
@@ -82,13 +83,18 @@
         };
 
         layer_4 {
+            label = "mac";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp N1  &kp N2     &kp N3    &kp N4    &kp N5                             &kp N6     &kp N7   &kp N8     &kp N9     &kp N0    &kp MINUS
+&kp TAB    &kp Q   &kp W      &kp E     &kp R     &kp T                              &kp Y      &kp U    &kp I      &kp O      &kp P     &kp EQUAL
+&kp ESC    &kp A   &kp S      &kp D     &kp F     &kp G                              &kp H      &kp J    &kp K      &kp L      &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z   &kp X      &kp C     &kp V     &kp B      &kp C_MUTE    &none     &kp N      &kp M    &kp COMMA  &kp DOT    &kp FSLH  &kp BSLH
+                   &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI   &kp SPACE     &kp BSPC  &kp ENTER  &kp DEL  &kp RALT   &mo RAISE
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>,
+                <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
     };
 };
