@@ -125,7 +125,7 @@ layers:
   - '&bootloader'
   - {type: held}
   adjust:
-  - {t: default, h: toggle}
+  - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -135,7 +135,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
+  - {t: default, h: toggle}
   - {t: mac, h: toggle}
   - {t: ▽, type: trans}
   - INS
