@@ -22,10 +22,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - MS WH LEFT
-  - MS WH UP
-  - MS WH DOWN
-  - MS WH RIGHT
+  - RIGHT
+  - UP
+  - DOWN
+  - LEFT
   - F12
   - CAPSLOCK
   - {t: ▽, type: trans}
@@ -77,10 +77,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - MS BT2
-  - MS UP
-  - MS BT1
-  - MS BT3
+  - {t: ▽, type: trans}
+  - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -89,9 +87,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - MS LEFT
-  - MS DOWN
-  - MS RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
