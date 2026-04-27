@@ -51,7 +51,6 @@
                       &trans      &bootloader &kp ENTER  &trans      &trans      &trans      &trans     &trans     &trans     &mo ADJUST
             >;
 
-            sensor-bindings = <&none &none>;
         };
 
         raise_layer {
@@ -72,7 +71,6 @@
                    &trans      &trans      &trans      &trans      &trans      &trans      &kp ENTER  &bootloader  &trans   &trans
             >;
 
-            sensor-bindings = <&none &none>;
         };
 
         adjust_layer {
@@ -85,7 +83,6 @@
                        &trans       &trans      &trans      &trans       &trans       &trans      &trans      &trans      &trans      &trans
             >;
 
-            sensor-bindings = <&none &none>;
         };
     };
 };
