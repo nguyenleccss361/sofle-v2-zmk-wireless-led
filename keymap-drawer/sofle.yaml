@@ -62,7 +62,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - adjust
+  - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -247,7 +247,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - adjust
+  - {t: ▽, type: trans}
   mac_raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,4 +308,65 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - '&bootloader'
+  - {type: held}
+  mac_adjust:
+  - BT CLR
+  - '&bt1_macos'
+  - '&bt2_base'
+  - '&bt3_base'
+  - '&bt4_base'
+  - '&bt5_base'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: mac, h: toggle}
+  - {t: ▽, type: trans}
+  - INS
+  - PSCRN
+  - CMENU
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - CAPSLOCK
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
