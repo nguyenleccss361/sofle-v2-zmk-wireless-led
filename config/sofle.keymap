@@ -97,7 +97,7 @@
 &trans        &trans  &trans  &trans       &trans     &trans                        &trans    &trans     &trans     &trans      &trans   &kp F12
 &kp CAPSLOCK  &trans  &trans  &trans       &trans     &trans                        &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT   &trans   &trans
 &trans        &trans  &trans  &trans       &trans     &trans  &kp C_MUTE    &none   &kp HOME  &kp PG_DN  &kp PG_UP  &kp END     &trans   &trans
-                      &trans  &bootloader  &kp ENTER  &trans  &trans        &trans  &trans    &trans     &trans     &mo ADJUST
+                      &trans  &bootloader  &kp ENTER  &trans  &trans        &trans  &trans    &trans     &trans     &trans
             >;
         };
 
@@ -153,7 +153,7 @@
 &trans        &trans  &trans  &trans       &trans     &trans                        &trans    &trans     &trans     &trans      &trans   &kp F12
 &kp CAPSLOCK  &trans  &trans  &trans       &trans     &trans                        &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT   &trans   &trans
 &trans        &trans  &trans  &trans       &trans     &trans  &kp C_MUTE    &none   &kp HOME  &kp PG_DN  &kp PG_UP  &kp END     &trans   &trans
-                      &trans  &bootloader  &kp ENTER  &trans  &trans        &trans  &trans    &trans     &trans     &mo ADJUST
+                      &trans  &bootloader  &kp ENTER  &trans  &trans        &trans  &trans    &trans     &trans     &trans
             >;
         };
 
