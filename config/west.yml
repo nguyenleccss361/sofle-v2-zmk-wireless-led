@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: nguyenleccss361
+      url-base: https://github.com/nguyenleccss361
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.3
+      remote: nguyenleccss361
+      revision: feature/sleep-countdown-widget
       import: app/west.yml
   self:
     path: config
