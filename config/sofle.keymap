@@ -16,6 +16,7 @@
 #define MAC 4
 #define MAC_LOWER 5
 #define MAC_RAISE 6
+#define MAC_ADJUST 7
 
 / {
     macros {
@@ -60,7 +61,7 @@
 
         adjust_layer_mac {
             if-layers = <MAC_LOWER MAC_RAISE>;
-            then-layer = <ADJUST>;
+            then-layer = <MAC_ADJUST>;
         };
     };
 
@@ -165,6 +166,17 @@
 &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &trans                    &trans  &trans     &trans       &trans  &trans  &trans
 &trans  &trans          &trans          &trans           &trans     &trans  &trans    &trans  &trans  &trans     &trans       &trans  &trans  &trans
                         &trans          &trans           &trans     &trans  &trans    &trans  &trans  &kp ENTER  &bootloader  &trans
+            >;
+        };
+
+        mac_adjust_layer {
+            label = "mac_adjust";
+            bindings = <
+&bt BT_CLR    &bt1_macos    &bt2_base    &bt3_base    &bt4_base    &bt5_base            &trans    &trans     &trans     &trans     &to BASE    &to MAC
+&trans        &kp INS     &kp PSCRN  &kp K_CMENU  &none        &none                     &trans    &trans     &trans     &trans     &trans  &trans
+&kp CAPSLOCK  &kp LALT    &kp LCTRL  &kp LSHFT    &none        &trans                    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
+&trans        &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &none   &trans    &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans
+                          &trans     &trans       &trans       &trans  &trans    &trans  &trans    &trans     &trans     &trans
             >;
         };
     };
