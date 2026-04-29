@@ -87,8 +87,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>,
-                <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+                <&inc_dec_kp SCRL_RIGHT SCRL_LEFT>,
+                <&inc_dec_kp SCRL_DOWN SCRL_UP>;
         };
 
         lower_layer {
@@ -143,8 +143,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>,
-                <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+                <&inc_dec_kp SCRL_RIGHT SCRL_LEFT>,
+                <&inc_dec_kp SCRL_DOWN SCRL_UP>;
         };
 
         mac_lower_layer {
