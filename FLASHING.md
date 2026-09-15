@@ -33,10 +33,10 @@ Use this when halves do not talk to each other, BLE is stuck, or host pairing is
 4. Remove old Bluetooth pairing on host devices.
 5. Re-pair keyboard from scratch.
 
-After the reset, Bluetooth profile 1 is the default Linux profile. The Mac
-profile is secondary: hold the lower and raise thumb keys together, then tap
-`2` on the top row to select it. To return to Linux, use the same layer
-combination and tap `1`.
+After the reset, Bluetooth profile 0 (the first Bluetooth profile) is the
+default Linux profile. The Mac profile is secondary: hold the lower and raise
+thumb keys together, then tap `2` on the top row to select it. To return to
+Linux, use the same layer combination and tap `1`.
 
 ## Troubleshooting
 
