@@ -886,23 +886,23 @@ path.combo {
 </g>
 <g transform="translate(84, 63)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;bt1_macos</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;linux_bas…</tspan></text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;bt2_base</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;macos_sec…</tspan></text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;bt3_base</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;linux_bas…</tspan></text>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;bt4_base</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;linux_bas…</tspan></text>
 </g>
 <g transform="translate(308, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;bt5_base</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;linux_bas…</tspan></text>
 </g>
 <g transform="translate(588, 42)" class="key trans keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1886,23 +1886,23 @@ path.combo {
 </g>
 <g transform="translate(84, 63)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;bt1_macos</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;linux_bas…</tspan></text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;bt2_base</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;macos_sec…</tspan></text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;bt3_base</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;linux_bas…</tspan></text>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;bt4_base</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;linux_bas…</tspan></text>
 </g>
 <g transform="translate(308, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;bt5_base</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;linux_bas…</tspan></text>
 </g>
 <g transform="translate(588, 42)" class="key trans keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

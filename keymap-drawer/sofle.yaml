@@ -126,11 +126,11 @@ layers:
   - {type: held}
   adjust:
   - BT CLR
-  - '&bt1_macos'
-  - '&bt2_base'
-  - '&bt3_base'
-  - '&bt4_base'
-  - '&bt5_base'
+  - '&linux_base_1'
+  - '&macos_secondary'
+  - '&linux_base_3'
+  - '&linux_base_4'
+  - '&linux_base_5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -311,11 +311,11 @@ layers:
   - {type: held}
   mac_adjust:
   - BT CLR
-  - '&bt1_macos'
-  - '&bt2_base'
-  - '&bt3_base'
-  - '&bt4_base'
-  - '&bt5_base'
+  - '&linux_base_1'
+  - '&macos_secondary'
+  - '&linux_base_3'
+  - '&linux_base_4'
+  - '&linux_base_5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
