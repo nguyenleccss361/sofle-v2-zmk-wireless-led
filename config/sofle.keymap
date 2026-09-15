@@ -34,31 +34,31 @@
     };
 
     macros {
-        bt1_macos: bt1_macos {
+        linux_base_1: linux_base_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0>, <&to MAC>;
+            bindings = <&bt BT_SEL 0>, <&to BASE>;
         };
 
-        bt2_base: bt2_base {
+        macos_secondary: macos_secondary {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>, <&to BASE>;
+            bindings = <&bt BT_SEL 1>, <&to MAC>;
         };
 
-        bt3_base: bt3_base {
+        linux_base_3: linux_base_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 2>, <&to BASE>;
         };
 
-        bt4_base: bt4_base {
+        linux_base_4: linux_base_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 3>, <&to BASE>;
         };
 
-        bt5_base: bt5_base {
+        linux_base_5: linux_base_5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 4>, <&to BASE>;
@@ -138,7 +138,7 @@
         adjust_layer {
             label = "adjust";
             bindings = <
-&bt BT_CLR    &bt1_macos    &bt2_base    &bt3_base    &bt4_base    &bt5_base            &trans    &trans     &trans     &trans     &to BASE    &to MAC
+&bt BT_CLR    &linux_base_1 &macos_secondary &linux_base_3 &linux_base_4 &linux_base_5          &trans    &trans     &trans     &trans     &to BASE    &to MAC
 &trans        &kp INS     &kp PSCRN  &kp K_CMENU  &none        &none                     &trans    &trans     &trans     &trans     &trans  &trans
 &kp CAPSLOCK  &kp LALT    &kp LCTRL  &kp LSHFT    &none        &trans                    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
 &trans        &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &none   &trans    &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans
@@ -186,7 +186,7 @@
         mac_adjust_layer {
             label = "mac_adjust";
             bindings = <
-&bt BT_CLR    &bt1_macos    &bt2_base    &bt3_base    &bt4_base    &bt5_base            &trans    &trans     &trans     &trans     &to BASE    &to MAC
+&bt BT_CLR    &linux_base_1 &macos_secondary &linux_base_3 &linux_base_4 &linux_base_5          &trans    &trans     &trans     &trans     &to BASE    &to MAC
 &trans        &kp INS     &kp PSCRN  &kp K_CMENU  &none        &none                     &trans    &trans     &trans     &trans     &trans  &trans
 &kp CAPSLOCK  &kp LALT    &kp LCTRL  &kp LSHFT    &none        &trans                    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
 &trans        &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &none   &trans    &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans
